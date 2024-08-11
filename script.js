@@ -1,6 +1,7 @@
 const generateForm = document.querySelector(".generate-form");
 const imageGallery = document.querySelector(".image-gallery");
 
+//Use your own OPENAPI key 
 const OPENAI_API_KEY = "USE YOUR OWN API KEY";
 const updateImageCard = (imgDataArray)=>{
     imgDataArray.forEach((imgObject,index)=>{
